@@ -1,38 +1,48 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #88b1fe;
 }
 
-.para {
-    color: hsl(0, 0%, 0%);
-    font-weight: 800;
-    font-size: 22px;
+.tarjeta {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
 }
 
-.small-para {
-    font-size: 14px;
-    font-weight: 800;
+.tarjeta img {
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
-.button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+.tarjeta button {
+    border: none;
+    background-color: #6b9fff;
+    width: 85px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.button.confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-}
-div.text .child {
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 14px;
-}
-
-div.text {
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-    font-weight: 100;
+.tarjeta button:hover {
+    border: none;
+    background-color: #2471ff;
+    width: 85px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
